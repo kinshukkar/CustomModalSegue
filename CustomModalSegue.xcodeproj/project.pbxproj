@@ -19,6 +19,9 @@
 		C38AE3421731329A006227B5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AE3401731329A006227B5 /* MainStoryboard_iPhone.storyboard */; };
 		C38AE3451731329A006227B5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AE3431731329A006227B5 /* MainStoryboard_iPad.storyboard */; };
 		C38AE3481731329A006227B5 /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AE3471731329A006227B5 /* KKViewController.m */; };
+		C38AE35017313396006227B5 /* KKCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AE34F17313396006227B5 /* KKCustomSegue.m */; };
+		C38AE35217313651006227B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38AE35117313651006227B5 /* QuartzCore.framework */; };
+		C38AE355173136C2006227B5 /* KKDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AE354173136C2006227B5 /* KKDestinationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,11 @@
 		C38AE3441731329A006227B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C38AE3461731329A006227B5 /* KKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
 		C38AE3471731329A006227B5 /* KKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
+		C38AE34E17313396006227B5 /* KKCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCustomSegue.h; sourceTree = "<group>"; };
+		C38AE34F17313396006227B5 /* KKCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCustomSegue.m; sourceTree = "<group>"; };
+		C38AE35117313651006227B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C38AE353173136C1006227B5 /* KKDestinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKDestinationViewController.h; sourceTree = "<group>"; };
+		C38AE354173136C2006227B5 /* KKDestinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKDestinationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 				C38AE3291731329A006227B5 /* UIKit.framework in Frameworks */,
 				C38AE32B1731329A006227B5 /* Foundation.framework in Frameworks */,
 				C38AE32D1731329A006227B5 /* CoreGraphics.framework in Frameworks */,
+				C38AE35217313651006227B5 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +67,7 @@
 		C38AE31C17313299006227B5 = {
 			isa = PBXGroup;
 			children = (
+				C38AE35117313651006227B5 /* QuartzCore.framework */,
 				C38AE32E1731329A006227B5 /* CustomModalSegue */,
 				C38AE3271731329A006227B5 /* Frameworks */,
 				C38AE3261731329A006227B5 /* Products */,
@@ -89,8 +99,12 @@
 				C38AE3381731329A006227B5 /* KKAppDelegate.m */,
 				C38AE3401731329A006227B5 /* MainStoryboard_iPhone.storyboard */,
 				C38AE3431731329A006227B5 /* MainStoryboard_iPad.storyboard */,
+				C38AE34E17313396006227B5 /* KKCustomSegue.h */,
+				C38AE34F17313396006227B5 /* KKCustomSegue.m */,
 				C38AE3461731329A006227B5 /* KKViewController.h */,
 				C38AE3471731329A006227B5 /* KKViewController.m */,
+				C38AE353173136C1006227B5 /* KKDestinationViewController.h */,
+				C38AE354173136C2006227B5 /* KKDestinationViewController.m */,
 				C38AE32F1731329A006227B5 /* Supporting Files */,
 			);
 			path = CustomModalSegue;
@@ -181,6 +195,8 @@
 				C38AE3351731329A006227B5 /* main.m in Sources */,
 				C38AE3391731329A006227B5 /* KKAppDelegate.m in Sources */,
 				C38AE3481731329A006227B5 /* KKViewController.m in Sources */,
+				C38AE35017313396006227B5 /* KKCustomSegue.m in Sources */,
+				C38AE355173136C2006227B5 /* KKDestinationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
