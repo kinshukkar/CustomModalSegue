@@ -3,11 +3,5 @@ CustomModalSegue
 
 A custom segue which has a similar behavior to Gmail app's modal transition
 
-Initial state
-![ScreenShot](https://raw.github.com/kinshukkar/CustomModalSegue/master/Screenshots/initial.PNG)
-
-Intermediate state 1
-![ScreenShot](https://raw.github.com/kinshukkar/CustomModalSegue/master/Screenshots/inter_2.PNG)
-
-Final state
-![ScreenShot](https://raw.github.com/kinshukkar/CustomModalSegue/master/Screenshots/final.PNG)
+![ScreenShot](https://raw.github.com/kinshukkar/CustomModalSegue/master/Screenshots/initial.PNG)      ![ScreenShot](https://raw.github.com/kinshukkar/CustomModalSegue/master/Screenshots/intermediate.PNG)
+  ![ScreenShot](https://raw.github.com/kinshukkar/CustomModalSegue/master/Screenshots/final.PNG)
